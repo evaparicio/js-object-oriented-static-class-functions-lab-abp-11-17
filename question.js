@@ -2,7 +2,7 @@ class Question {
   constructor(content) {
     this.save();
     this.content=content;
-    this._All.push(this)
+    Question._All.push(this)
   }
   save(){
     this.constructor._All.push(this)
