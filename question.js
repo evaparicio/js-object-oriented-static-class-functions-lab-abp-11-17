@@ -23,4 +23,4 @@ Question._All =[]
 
 const question = new Question()
 
-Question._All()
+Question.All()
