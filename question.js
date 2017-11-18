@@ -1,5 +1,5 @@
 class Question {
-  constructor(content) {
+  constructor(content, id) {
     this.save();
     this.content=content;
   }
