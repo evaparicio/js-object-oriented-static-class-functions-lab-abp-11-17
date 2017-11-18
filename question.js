@@ -7,7 +7,7 @@ class Question {
     this.constructor._All.push(this)
   }
 
-  static All() {
+  static All(){
     return this._All;
   }
 }
