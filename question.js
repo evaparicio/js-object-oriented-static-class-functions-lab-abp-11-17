@@ -11,7 +11,7 @@ class Question {
     return this._All;
   }
 }
-Question._All = []
+Question._All =[]
 
 const question = new Question()
 
