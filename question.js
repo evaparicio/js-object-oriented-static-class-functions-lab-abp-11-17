@@ -20,6 +20,8 @@ class Question {
 }
 Question._All =[]
 
-const question = new Question("What's your favorite food?")
-question.save()
+const question1 = new Question("What's your favorite food?")
+const question2 = new Question("What city were you born in?")
+const question3 = new Question("What's your favorite TV Show")
+
 Question.All()
