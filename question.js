@@ -6,7 +6,10 @@ class Question {
   save(){
     this.constructor._All.push(this)
   }
+  _All(){
 
+  }
+  
   static All(){
     return this._All;
   }
