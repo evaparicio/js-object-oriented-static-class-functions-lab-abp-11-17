@@ -18,7 +18,7 @@ class Question {
    })
   }
 }
-Question._All =[];
+Question._All =[]
 
 const question = new Question()
 
