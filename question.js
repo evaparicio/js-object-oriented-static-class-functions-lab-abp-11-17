@@ -1,6 +1,7 @@
 class Question {
   constructor(content) {
     this.save();
+    this_All();
     this.content=content;
   }
   save(){
@@ -9,7 +10,7 @@ class Question {
   _All(){
 
   }
-  
+
   static All(){
     return this._All;
   }
