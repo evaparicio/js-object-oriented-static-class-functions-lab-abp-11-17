@@ -1,7 +1,6 @@
 class Question {
-  constructor(id, content) {
+  constructor(content) {
     this.save();
-    this.id=id;
     this.content=content;
     Question._All.push(this)
   }
